@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Asistencia por QR</title>
+	<meta name="description" content="Datos de alumnos">
+	 <link rel="stylesheet" type="text/css" href="css/estilotp.css">
+</head>
+<body>
+
+	<h3 class="titulo">Sistema de Asistencia por QR</h3>
+
+<div>
+
+	<nav class="fila">
+
+		<p>MENÚ</p>
+
+	</nav>
+
+</div>
+
+<div>
+
+	<section id="entrada">
+
+		<form action="php/registrar.php" method="POST">
+
+
+			<br/><p>Apellido</p>
+			<input class="datos" type="text" name="t_ayn">
+
+			<br/><p>Nombre</p>
+			<input class="datos" type="text" name="t_cur">
+
+			<br/><p>Curso</p>
+			<select class="datos" type="text" name="t_cur">
+				<option>1°</option>
+				<option>2°</option>
+				<option>3°</option>
+				<option>4°</option>
+				<option>5°</option>
+				<option>6°</option>
+			</select>
+
+			<br/><p>División</p>
+			<select class="datos" type="text" name="t_cur">
+				<option>A</option>
+				<option>B</option>
+				<option>C</option>
+				<option>D</option>
+				<option>E</option>
+			</select>
+
+			<br/><p>Correo Electrónico</p>
+			<input class="datos" type="text" name="t_mat">
+
+			<br/>	<input class="botones" value="Registrarse" type="submit" name="btnRegistrar"><br/><br>
+			<a href="wikipedia.org">Quiero modificar mis datos</a><br> <br>
+			<a href="wikipedia.org">Quiero darme de baja</a>	  
+		</form>             						    
+	</section>
+</div>
+
+<!-- <div>
+
+    <section id="bor">
+
+		<form action="php/borrar.php" method="POST">
+
+			<br/><p>Nro. Alumno</p>
+
+			<input class="datos" type="number" name="t_nroB">
+
+			<nav>
+
+				<br/>
+
+				<input class="botones" value="Borrar" type="submit" name="btnBorrar">
+
+			</nav>
+
+		</form>
+					
+    </section>
+
+</div> -->
+
+<!-- <div>
+
+    <section id="entrada">
+		    	<form   action="php/modificar.php"  method="POST">
+					<br/><p>Nro. Alumno</p>
+					<input class="datos" type="number" name="m_nro">
+
+					<br/><p>DNI</p>
+					<input class="datos" type="number" name="m_dni">
+
+					<br/><p>Apellido y Nombre</p>
+					<input class="datos" type="text" name="m_ayn">
+
+					<br/><p>Curso</p>
+					<input class="datos" type="text" name="m_cur">
+
+					<br/><p>Materia</p>
+					<input class="datos" type="text" name="m_mat">
+
+					<br/><p>Nota 1</p>
+					<input class="datos" type="number" name="m_not1">
+
+					<br/><p>Nota 2</p>
+					<input class="datos" type="number" name="m_not2">
+
+					<br/><p>Nota 3</p>
+					<input class="datos" type="number" name="m_not3">
+			
+			<nav>
+				<br/>
+				<input class="botones" value="Modificar" type="submit" name="btnModificar">	               			
+				<br/>
+			
+			</nav>
+				</form>
+					
+    </section>
+
+</div> -->
+
+<!-- <div>
+
+    <section id="list">
+
+     <form action="php/listar.php" method="POST">	
+
+			<nav>
+				<br>
+				<input class="botones" type="submit" value="Listar" name="btnLista">
+			</nav>
+		
+	</form>
+
+    </section>
+
+</div> -->
+
+</body>
+
+</html>			    
